@@ -8,7 +8,8 @@ from EcomApp.serializers import ProductSerializer
 
 class ListCreateProductAPIView(APIView):
     def get(self, request):
-        products = Product.objects.all()
+        #products = Product.objects.all().filter(price__gte=10)
+        products=Product.objects.raw("select * from EcomApp_Product where price BETWEEN 0 AND 21")
         serialized = ProductSerializer(products, many=True)
         return Response(serialized.data, status=200)
         # return Response ({"products": products})

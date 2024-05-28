@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d8b52a9d-b8c4-4aee-b00d-625e251bfb4d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EcomApp/models/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/EcomApp/models/product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EcomApp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/EcomApp/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EcomApp/views/product_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/EcomApp/views/product_views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1716821321326</updated>
       <workItem from="1716821323694" duration="8328000" />
-      <workItem from="1716913950105" duration="5321000" />
+      <workItem from="1716913950105" duration="7292000" />
     </task>
     <servers />
   </component>
