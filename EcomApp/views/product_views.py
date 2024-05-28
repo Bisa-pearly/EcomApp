@@ -25,7 +25,7 @@ class ListCreateProductAPIView(APIView):
             return Response(decoded_data.errors, status=400)
         decoded_data.save()
 
-        return Response(decoded_data.errors, status=201)
+        return Response(decoded_data.data, status=201)
 
         #return Response ({"product": product}) to add serilaxer we removed the parameter
-        return Response()
+        #return Response()
